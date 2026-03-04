@@ -1,0 +1,13 @@
+# Target labels
+ l3_e2
+# Source files and their labels
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/CMakeFiles/l3_e2
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/CMakeFiles/l3_e2.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/CMakeFiles/l3_e2-complete.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-build.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-configure.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-download.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-install.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-mkdir.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-patch.rule
+C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson3/l3_e2/build/_sysbuild/sysbuild/images/l3_e2-prefix/src/l3_e2-stamp/l3_e2-update.rule

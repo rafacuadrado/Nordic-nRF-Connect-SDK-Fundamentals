@@ -1,0 +1,13 @@
+# Target labels
+ l4_e1
+# Source files and their labels
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1-complete.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-build.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-configure.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-download.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-install.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-mkdir.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-patch.rule
+C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-update.rule

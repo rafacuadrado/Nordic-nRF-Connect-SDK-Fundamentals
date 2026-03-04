@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e2"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e2.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e2-complete.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-build.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-configure.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-download.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-install.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-patch.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/ncs-fund/l4/l4_e2/build/_sysbuild/sysbuild/images/l4_e2-prefix/src/l4_e2-stamp/l4_e2-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"l4_e2"
+		],
+		"name" : "l4_e2"
+	}
+}

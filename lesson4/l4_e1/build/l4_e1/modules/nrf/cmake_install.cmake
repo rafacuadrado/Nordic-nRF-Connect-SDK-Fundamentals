@@ -39,36 +39,36 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/ext/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/ext/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/lib/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/samples/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/samples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/subsys/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/modules/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/drivers/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/modules/nrf/tests/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/modules/nrf/tests/cmake_install.cmake")
 endif()
 

@@ -39,41 +39,41 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/libc/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/libc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/posix/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/posix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/hash/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/hash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/heap/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/heap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/mem_blocks/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/mem_blocks/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/os/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/os/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/utils/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/utils/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/lib/uuid/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/lib/uuid/cmake_install.cmake")
 endif()
 

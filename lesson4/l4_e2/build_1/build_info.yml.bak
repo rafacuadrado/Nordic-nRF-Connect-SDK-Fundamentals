@@ -1,0 +1,6 @@
+west:
+  command: C:\ncs\toolchains\c717907b94\opt\bin\Scripts\west build --build-dir c:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e2/build_1
+    c:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e2 --pristine
+    --board nrf5340dk/nrf5340/cpuapp -- -DCONFIG_DEBUG_THREAD_INFO=y -DCONF_FILE=prj.conf
+  topdir: c:\ncs\v3.2.2
+  version: 1.4.0

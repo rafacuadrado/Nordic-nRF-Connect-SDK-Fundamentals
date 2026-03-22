@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/cmake_install.cmake")
+  include("C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/cmake_install.cmake")
 endif()
 

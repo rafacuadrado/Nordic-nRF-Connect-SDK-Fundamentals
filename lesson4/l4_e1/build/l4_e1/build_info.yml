@@ -1,7 +1,7 @@
 cmake:
   application:
-    configuration-dir: 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1'
-    source-dir: 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1'
+    configuration-dir: 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1'
+    source-dir: 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1'
   board:
     name: 'nrf5340dk'
     path:
@@ -37,9 +37,9 @@ cmake:
   kconfig:
     files:
      - 'C:/ncs/v3.2.2/zephyr/boards/nordic/nrf5340dk/nrf5340dk_nrf5340_cpuapp_defconfig'
-     - 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/prj.conf'
-     - 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/misc/generated/extra_kconfig_options.conf'
-     - 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/.config.sysbuild'
+     - 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/prj.conf'
+     - 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/misc/generated/extra_kconfig_options.conf'
+     - 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/.config.sysbuild'
     user-files:
      - 'prj.conf'
   toolchain:

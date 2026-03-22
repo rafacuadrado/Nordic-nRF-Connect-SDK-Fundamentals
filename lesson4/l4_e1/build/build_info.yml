@@ -9,17 +9,17 @@ cmake:
     revision: ''
   images:
    - name: 'l4_e1'
-     source-dir: 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1'
+     source-dir: 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1'
      type: 'MAIN'
   kconfig:
     files:
-     - 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/empty.conf'
-     - 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/empty.conf'
+     - 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/empty.conf'
+     - 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/empty.conf'
     user-files:
-     - 'C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/empty.conf'
+     - 'C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/empty.conf'
   sysbuild: 'true'
 version: '0.1.0'
 west:
-  command: 'C:\ncs\toolchains\c717907b94\opt\bin\Scripts\west build --build-dir c:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build c:/Users/rafac/Documents/ncs-fund/l4/l4_e1 --pristine --board nrf5340dk/nrf5340/cpuapp -- -DCONFIG_DEBUG_THREAD_INFO=y -DCONF_FILE=prj.conf'
+  command: 'C:\ncs\toolchains\c717907b94\opt\bin\Scripts\west build --build-dir c:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build c:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1 --pristine --board nrf5340dk/nrf5340/cpuapp -- -DCONF_FILE=prj.conf -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y -Dl4_e1_DEBUG_THREAD_INFO=On'
   topdir: 'c:\ncs\v3.2.2'
   version: '1.4.0'

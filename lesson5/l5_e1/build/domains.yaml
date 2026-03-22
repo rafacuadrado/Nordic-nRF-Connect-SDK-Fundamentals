@@ -1,0 +1,7 @@
+default: l5_e1
+build_dir: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson5/l5_e1/build
+domains:
+  - name: l5_e1
+    build_dir: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson5/l5_e1/build/l5_e1
+flash_order:
+  - l5_e1

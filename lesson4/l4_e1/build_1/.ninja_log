@@ -1,0 +1,11 @@
+# ninja log v5
+1	184	7943439000785788	_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-mkdir	20537a0c235d8198
+1	184	7943439000785788	C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build_1/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-mkdir	20537a0c235d8198
+185	242	7943439001372728	_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-download	ac389dad1e12746
+185	242	7943439001372728	C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build_1/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-download	ac389dad1e12746
+243	300	7943439001949353	_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-update	2ebfc6b83115c945
+243	300	7943439001949353	C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build_1/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-update	2ebfc6b83115c945
+301	359	7943439002541384	_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-patch	e16fea0d73567a50
+301	359	7943439002541384	C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build_1/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-patch	e16fea0d73567a50
+360	418	7943439003138260	_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-configure	77c307df12299e47
+360	418	7943439003138260	C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build_1/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-configure	77c307df12299e47

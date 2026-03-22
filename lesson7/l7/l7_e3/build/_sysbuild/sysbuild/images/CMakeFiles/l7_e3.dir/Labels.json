@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/CMakeFiles/l7_e3"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/CMakeFiles/l7_e3.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/CMakeFiles/l7_e3-complete.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-build.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-configure.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-download.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-install.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-patch.rule"
+		},
+		{
+			"file" : "C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/_sysbuild/sysbuild/images/l7_e3-prefix/src/l7_e3-stamp/l7_e3-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"l7_e3"
+		],
+		"name" : "l7_e3"
+	}
+}

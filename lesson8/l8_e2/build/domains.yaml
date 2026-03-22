@@ -1,0 +1,7 @@
+default: l8_e2
+build_dir: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson8/l8_e2/build
+domains:
+  - name: l8_e2
+    build_dir: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson8/l8_e2/build/l8_e2
+flash_order:
+  - l8_e2

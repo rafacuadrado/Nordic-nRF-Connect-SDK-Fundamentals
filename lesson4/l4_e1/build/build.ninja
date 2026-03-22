@@ -34,13 +34,13 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\
+cmake_ninja_workdir = C$:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -52,7 +52,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -135,7 +135,7 @@ build _sysbuild\merged_hex: phony _sysbuild\CMakeFiles\merged_hex merged.hex _sy
 # Utility command for edit_cache
 
 build _sysbuild\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -153,7 +153,7 @@ build _sysbuild\partition_manager_report: phony _sysbuild\CMakeFiles\partition_m
 # Utility command for rebuild_cache
 
 build _sysbuild\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -165,7 +165,7 @@ build _sysbuild\rebuild_cache: phony _sysbuild\CMakeFiles\rebuild_cache.util
 # Custom command for _sysbuild\CMakeFiles\sysbuild_guiconfig
 
 build _sysbuild\CMakeFiles\sysbuild_guiconfig | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\sysbuild_guiconfig: CUSTOM_COMMAND
-  COMMAND = _sysbuild\CMakeFiles\sysbuild_guiconfig-015c191.bat 729cd2b6aa20fe3c
+  COMMAND = _sysbuild\CMakeFiles\sysbuild_guiconfig-015c191.bat d43f735c0d4c7b13
   pool = console
 
 
@@ -173,7 +173,7 @@ build _sysbuild\CMakeFiles\sysbuild_guiconfig | ${cmake_ninja_workdir}_sysbuild\
 # Custom command for _sysbuild\CMakeFiles\boards
 
 build _sysbuild\CMakeFiles\boards | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\boards: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\python.exe C:/ncs/v3.2.2/zephyr/scripts/list_boards.py --board-root=C:/ncs/v3.2.2/nrf --board-root=C:/ncs/v3.2.2/zephyr --arch-root=C:/ncs/v3.2.2/zephyr --soc-root=C:/ncs/v3.2.2/nrf --soc-root=C:/ncs/v3.2.2/zephyr"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\python.exe C:/ncs/v3.2.2/zephyr/scripts/list_boards.py --board-root=C:/ncs/v3.2.2/nrf --board-root=C:/ncs/v3.2.2/zephyr --arch-root=C:/ncs/v3.2.2/zephyr --soc-root=C:/ncs/v3.2.2/nrf --soc-root=C:/ncs/v3.2.2/zephyr"
   pool = console
 
 
@@ -181,7 +181,7 @@ build _sysbuild\CMakeFiles\boards | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\b
 # Custom command for _sysbuild\CMakeFiles\shields
 
 build _sysbuild\CMakeFiles\shields | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\shields: CUSTOM_COMMAND
-  COMMAND = _sysbuild\CMakeFiles\shields-a20ad5f.bat dddd6263b7137c7f
+  COMMAND = _sysbuild\CMakeFiles\shields-a20ad5f.bat 769ae27a2949176b
   pool = console
 
 
@@ -189,7 +189,7 @@ build _sysbuild\CMakeFiles\shields | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\
 # Custom command for _sysbuild\CMakeFiles\snippets
 
 build _sysbuild\CMakeFiles\snippets | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\snippets: CUSTOM_COMMAND
-  COMMAND = _sysbuild\CMakeFiles\snippets-dae97d2.bat 38d61ac61d6dacb6
+  COMMAND = _sysbuild\CMakeFiles\snippets-dae97d2.bat 4b091e6a68cd3174
   pool = console
 
 
@@ -203,7 +203,7 @@ build _sysbuild\CMakeFiles\config-twister | ${cmake_ninja_workdir}_sysbuild\CMak
 # Custom command for _sysbuild\CMakeFiles\sysbuild_menuconfig
 
 build _sysbuild\CMakeFiles\sysbuild_menuconfig | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\sysbuild_menuconfig: CUSTOM_COMMAND
-  COMMAND = _sysbuild\CMakeFiles\sysbuild_menuconfig-1e014e8.bat 4e21a693acb41da2
+  COMMAND = _sysbuild\CMakeFiles\sysbuild_menuconfig-1e014e8.bat 3c6dbb32caf82c55
   pool = console
 
 
@@ -217,7 +217,7 @@ build _sysbuild\CMakeFiles\build_info_yaml_saved | ${cmake_ninja_workdir}_sysbui
 # Custom command for _sysbuild\CMakeFiles\l4_e1_extra_byproducts
 
 build _sysbuild\CMakeFiles\l4_e1_extra_byproducts l4_e1\zephyr\zephyr.bin l4_e1\zephyr\zephyr.elf l4_e1\zephyr\zephyr.hex | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\l4_e1_extra_byproducts ${cmake_ninja_workdir}l4_e1\zephyr\zephyr.bin ${cmake_ninja_workdir}l4_e1\zephyr\zephyr.elf ${cmake_ninja_workdir}l4_e1\zephyr\zephyr.hex: CUSTOM_COMMAND || _sysbuild\sysbuild\images\l4_e1
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E true"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E true"
   restat = 1
 
 
@@ -231,7 +231,7 @@ build _sysbuild\CMakeFiles\merged_hex | ${cmake_ninja_workdir}_sysbuild\CMakeFil
 # Custom command for merged.hex
 
 build merged.hex | ${cmake_ninja_workdir}merged.hex: CUSTOM_COMMAND l4_e1\zephyr\zephyr.hex || _sysbuild\l4_e1_extra_byproducts _sysbuild\sysbuild\images\l4_e1
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\python.exe C:/ncs/v3.2.2/zephyr/scripts/build/mergehex.py -o C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/merged.hex --overlap=replace C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1/zephyr/zephyr.hex"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\python.exe C:/ncs/v3.2.2/zephyr/scripts/build/mergehex.py -o C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/merged.hex --overlap=replace C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1/zephyr/zephyr.hex"
   DESC = Generating ../merged.hex
   restat = 1
 
@@ -240,7 +240,7 @@ build merged.hex | ${cmake_ninja_workdir}merged.hex: CUSTOM_COMMAND l4_e1\zephyr
 # Custom command for _sysbuild\CMakeFiles\partition_manager_report
 
 build _sysbuild\CMakeFiles\partition_manager_report | ${cmake_ninja_workdir}_sysbuild\CMakeFiles\partition_manager_report: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\python.exe C:/ncs/v3.2.2/nrf/scripts/partition_manager_report.py --input C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/partitions.yml"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild && C:\ncs\toolchains\c717907b94\opt\bin\python.exe C:/ncs/v3.2.2/nrf/scripts/partition_manager_report.py --input C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/partitions.yml"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -258,7 +258,7 @@ build _sysbuild\sysbuild\images\menuconfig: phony _sysbuild\sysbuild\images\CMak
 # Utility command for rebuild_cache
 
 build _sysbuild\sysbuild\images\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -282,7 +282,7 @@ build _sysbuild\sysbuild\images\guiconfig: phony _sysbuild\sysbuild\images\CMake
 # Utility command for edit_cache
 
 build _sysbuild\sysbuild\images\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -300,7 +300,7 @@ build _sysbuild\sysbuild\images\l4_e1: phony _sysbuild\sysbuild\images\CMakeFile
 # Custom command for _sysbuild\sysbuild\images\CMakeFiles\menuconfig
 
 build _sysbuild\sysbuild\images\CMakeFiles\menuconfig | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\CMakeFiles\menuconfig: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\ninja.exe menuconfig"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\ninja.exe menuconfig"
   pool = console
 
 
@@ -308,7 +308,7 @@ build _sysbuild\sysbuild\images\CMakeFiles\menuconfig | ${cmake_ninja_workdir}_s
 # Custom command for _sysbuild\sysbuild\images\CMakeFiles\hardenconfig
 
 build _sysbuild\sysbuild\images\CMakeFiles\hardenconfig | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\CMakeFiles\hardenconfig: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\ninja.exe hardenconfig"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\ninja.exe hardenconfig"
   pool = console
 
 
@@ -316,7 +316,7 @@ build _sysbuild\sysbuild\images\CMakeFiles\hardenconfig | ${cmake_ninja_workdir}
 # Custom command for _sysbuild\sysbuild\images\CMakeFiles\guiconfig
 
 build _sysbuild\sysbuild\images\CMakeFiles\guiconfig | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\CMakeFiles\guiconfig: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\ninja.exe guiconfig"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\ninja.exe guiconfig"
   pool = console
 
 
@@ -330,7 +330,7 @@ build _sysbuild\sysbuild\images\CMakeFiles\l4_e1 | ${cmake_ninja_workdir}_sysbui
 # Custom command for _sysbuild\sysbuild\images\CMakeFiles\l4_e1-complete
 
 build _sysbuild\sysbuild\images\CMakeFiles\l4_e1-complete _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-done | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\CMakeFiles\l4_e1-complete ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-done: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-install _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-mkdir _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-download _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-update _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-patch _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-configure _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-install
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1-complete && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-done"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1-complete && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-done"
   DESC = Completed 'l4_e1'
   restat = 1
 
@@ -339,7 +339,7 @@ build _sysbuild\sysbuild\images\CMakeFiles\l4_e1-complete _sysbuild\sysbuild\ima
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-build
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-build | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-build: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-configure
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --build ."
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --build ."
   DESC = Performing build step for 'l4_e1'
   pool = console
 
@@ -348,7 +348,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-build | ${cma
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-configure
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-configure | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-configure: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\tmp\l4_e1-cfgcmd.txt _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-patch
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-configure"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-configure"
   DESC = No configure step for 'l4_e1'
   restat = 1
 
@@ -357,7 +357,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-configure | $
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-download
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-download | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-download: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-mkdir
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-download"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-download"
   DESC = No download step for 'l4_e1'
   restat = 1
 
@@ -366,7 +366,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-download | ${
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-install
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-install | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-install: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-build
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-install"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-install"
   DESC = No install step for 'l4_e1'
   restat = 1
 
@@ -375,7 +375,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-install | ${c
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-mkdir
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-mkdir | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-mkdir: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/tmp && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-mkdir"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/l4_e1 && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/tmp && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E make_directory C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-mkdir"
   DESC = Creating directories for 'l4_e1'
   restat = 1
 
@@ -384,7 +384,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-mkdir | ${cma
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-patch
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-patch | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-patch: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-update
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-patch"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-patch"
   DESC = No patch step for 'l4_e1'
   restat = 1
 
@@ -393,7 +393,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-patch | ${cma
 # Custom command for _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-update
 
 build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-update | ${cmake_ninja_workdir}_sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-update: CUSTOM_COMMAND _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-download
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-update"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo_append && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E touch C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-update"
   DESC = No update step for 'l4_e1'
   restat = 1
 
@@ -407,7 +407,7 @@ build _sysbuild\sysbuild\images\l4_e1-prefix\src\l4_e1-stamp\l4_e1-update | ${cm
 # Utility command for edit_cache
 
 build _sysbuild\sysbuild\images\bootloader\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\bootloader && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\bootloader && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -419,7 +419,7 @@ build _sysbuild\sysbuild\images\bootloader\edit_cache: phony _sysbuild\sysbuild\
 # Utility command for rebuild_cache
 
 build _sysbuild\sysbuild\images\bootloader\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\bootloader && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\bootloader && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -436,7 +436,7 @@ build _sysbuild\sysbuild\images\bootloader\rebuild_cache: phony _sysbuild\sysbui
 # Utility command for edit_cache
 
 build _sysbuild\sysbuild\images\firmware_loader\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\firmware_loader && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\firmware_loader && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -448,7 +448,7 @@ build _sysbuild\sysbuild\images\firmware_loader\edit_cache: phony _sysbuild\sysb
 # Utility command for rebuild_cache
 
 build _sysbuild\sysbuild\images\firmware_loader\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\firmware_loader && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\firmware_loader && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -465,7 +465,7 @@ build _sysbuild\sysbuild\images\firmware_loader\rebuild_cache: phony _sysbuild\s
 # Utility command for edit_cache
 
 build modules\nrf\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\modules\nrf && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\modules\nrf && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -477,7 +477,7 @@ build modules\nrf\edit_cache: phony modules\nrf\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build modules\nrf\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\modules\nrf && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\modules\nrf && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -494,7 +494,7 @@ build modules\nrf\rebuild_cache: phony modules\nrf\CMakeFiles\rebuild_cache.util
 # Utility command for edit_cache
 
 build modules\mcuboot\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\modules\mcuboot && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\modules\mcuboot && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -506,7 +506,7 @@ build modules\mcuboot\edit_cache: phony modules\mcuboot\CMakeFiles\edit_cache.ut
 # Utility command for rebuild_cache
 
 build modules\mcuboot\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\modules\mcuboot && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\modules\mcuboot && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -523,7 +523,7 @@ build modules\mcuboot\rebuild_cache: phony modules\mcuboot\CMakeFiles\rebuild_ca
 # Utility command for edit_cache
 
 build _sysbuild\sysbuild\images\boards\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\boards && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\boards && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -535,7 +535,7 @@ build _sysbuild\sysbuild\images\boards\edit_cache: phony _sysbuild\sysbuild\imag
 # Utility command for rebuild_cache
 
 build _sysbuild\sysbuild\images\boards\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\boards && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\boards && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -552,7 +552,7 @@ build _sysbuild\sysbuild\images\boards\rebuild_cache: phony _sysbuild\sysbuild\i
 # Utility command for edit_cache
 
 build _sysbuild\sysbuild\images\soc\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\soc && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\soc && C:\ncs\toolchains\c717907b94\opt\bin\cmake-gui.exe -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -564,7 +564,7 @@ build _sysbuild\sysbuild\images\soc\edit_cache: phony _sysbuild\sysbuild\images\
 # Utility command for rebuild_cache
 
 build _sysbuild\sysbuild\images\soc\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild\sysbuild\images\soc && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild\sysbuild\images\soc && C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.2.2\zephyr\share\sysbuild -BC:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -612,63 +612,63 @@ build sysbuild_menuconfig: phony _sysbuild\sysbuild_menuconfig
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build
 
 build all: phony _sysbuild\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild
 
 build _sysbuild\all: phony _sysbuild\build_info_yaml_saved _sysbuild\merged_hex _sysbuild\sysbuild\images\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images
 
 build _sysbuild\sysbuild\images\all: phony _sysbuild\sysbuild\images\l4_e1 _sysbuild\sysbuild\images\bootloader\all _sysbuild\sysbuild\images\firmware_loader\all modules\nrf\all modules\mcuboot\all _sysbuild\sysbuild\images\boards\all _sysbuild\sysbuild\images\soc\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/boards
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/boards
 
 build _sysbuild\sysbuild\images\boards\all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/bootloader
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/bootloader
 
 build _sysbuild\sysbuild\images\bootloader\all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/firmware_loader
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/firmware_loader
 
 build _sysbuild\sysbuild\images\firmware_loader\all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/_sysbuild/sysbuild/images/soc
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/_sysbuild/sysbuild/images/soc
 
 build _sysbuild\sysbuild\images\soc\all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/modules/mcuboot
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/modules/mcuboot
 
 build modules\mcuboot\all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/rafac/Documents/ncs-fund/l4/l4_e1/build/modules/nrf
+# Folder: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson4/l4_e1/build/modules/nrf
 
 build modules\nrf\all: phony
 

@@ -1,5 +1,5 @@
 @echo off
-cd /D C:\Users\rafac\Documents\ncs-fund\l4\l4_e1\build\_sysbuild || (set FAIL_LINE=2& goto :ABORT)
+cd /D C:\Users\rafac\Documents\Nordic-nRF-Connect-SDK-Fundamentals\lesson4\l4_e1\build\_sysbuild || (set FAIL_LINE=2& goto :ABORT)
 C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo bt-ll-sw-split || (set FAIL_LINE=3& goto :ABORT)
 C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo cdc-acm-console || (set FAIL_LINE=4& goto :ABORT)
 C:\ncs\toolchains\c717907b94\opt\bin\cmake.exe -E echo ci-shell || (set FAIL_LINE=5& goto :ABORT)

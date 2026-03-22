@@ -1,0 +1,7 @@
+default: l7_e3
+build_dir: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build
+domains:
+  - name: l7_e3
+    build_dir: C:/Users/rafac/Documents/Nordic-nRF-Connect-SDK-Fundamentals/lesson7/l7/l7_e3/build/l7_e3
+flash_order:
+  - l7_e3
